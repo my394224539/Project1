@@ -1,57 +1,28 @@
-# project1
+# Tip Calculator
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Author: Feng Chen 
 
-## Prerequisites
+This is a tip calculator to help the user calculates the amount of bill applied tips.
 
-You will need the following things properly installed on your computer.
+## Time spent
+ Tutorials, research: 3 hours
+ Coding required stories: 1 hour
+ 
+## User stories
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+### Required
+ * [✓] User can enter total bill amount
+ * [✓] User can choose between at least three tip tiers (e.g. 15%, 18%, 20%) and see the total tip 
+ * [✓] User can see the total with tip
 
-## Installation
+### Optional
 
-* `git clone <repository-url>` this repository
-* `cd project1`
-* `npm install`
+ * [✓] Add custom CSS to the calculator inputs
+ * [✓] Add a light/dark color theme toggle on the page
+ * [✓] User can enter tip rate
+ 
 
-## Running / Development
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+## Notes & shoutouts
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+I made a tons of research from youtube, google, and it really costed me alot of time to get familliar with ember, such like connection between HTML, CSS, JS. What does controller, components, template do, how to install boostrap ect... After few hours researching, I think I'm getting more and more familliar.
