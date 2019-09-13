@@ -1,0 +1,23 @@
+
+<h1 class="text-center">Tip-Calcultor</h1>
+<div class="container" style="max-width:50%;">
+<form>
+<table class="table table-hover table-secondary">
+        <tr>
+            <td><label for="billAmount">Bill Amount: </label></td>
+            <td><label for="numberOfPeople">Number of People: </label></td>
+            <td><label for="tipPercentage">Tip %: </label></td>
+        </tr>
+        <tr>
+            <td><input value={{billAmount}} onchange={{action (mut this.billAmount)value="target.value"}} class="form-control" type="number" required="required" step="0.01" placeholder="Enter the amount of bill"></td>
+
+            <td><input value={{numberOfPeople}} onchange={{action (mut this.numberOfPeople) value="target.value"}} class="form-control" required="required" type="number" placeholder="number of people"></td>   
+
+            
+            <td><input value={{TipRate}} onchange={{action (mut this.TipRate)value="target.value"}} class="form-control" type="number" required="required" placeholder="Tip rate"></td>
+        </tr> 
+        <tbody id="result"> </tbody>
+</table>
+<button {{action 'calculate'}}type="submit" class="btn btn-outline-light btn-lg">Calculate</button>
+</form>
+</div>
